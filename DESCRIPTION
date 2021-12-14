@@ -1,0 +1,18 @@
+Package: bcrtools
+Type: Package
+Title: The package has helpful functions for ecology statistics.
+Version: 0.1.0
+Author: Björn C. Rall
+Maintainer: Björn C. Rall <bjoern.c.rall@gmail.com>
+Description: This package includes functions I used while working on scientific
+    projects. It includes e.g. a function to select the random structure of
+    lme-models. Or because of some changes to the 4th version of R, I wrote a
+    wrapper around the read.csv() function automatically converting charaters
+    to factors. more ot come ;-).
+License: GPL3
+Encoding: UTF-8
+Imports:
+    foreach,
+    nlme
+LazyData: true
+RoxygenNote: 7.1.2
