@@ -43,6 +43,8 @@ Automatically select the random structure using "lme"
 }
 \examples{
 
+library("nlme") # for data
+
 ds <- data.frame(distance = Orthodont$distance,
                  age = Orthodont$age,
                  sex = Orthodont$Sex,
