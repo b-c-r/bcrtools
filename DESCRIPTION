@@ -1,15 +1,16 @@
 Package: bcrtools
 Type: Package
-Title: BCRs helpful R-functions for ecological statististics
+Title: Bjoern's little R-function collection for ecological statistics
 Version: 0.1.0
 Date: 2021-12-14
 Author: Björn C. Rall
 Maintainer: Björn C. Rall <bjoern.c.rall@gmail.com>
-Description: This package includes functions I used while working on scientific
-    projects. It includes e.g. a function to select the random structure of
-    lme-models. Or because of some changes to the 4th version of R, I wrote a
-    wrapper around the read.csv() function automatically converting charaters
-    to factors. more ot come ;-).
+Description: This package contains several functions I developed aside from my
+    analyses of ecological data. I started in December 2021, and I hope it will
+    grow through time. This R-Package is my first, and it will also be my first
+    open repository on GitHub. If you find issues and bugs, please report them
+    to me. I'll try to fix them as fast as I can. I'd also appreciate it if you
+    had comments on improving the code in general.
 License: GPL3
 Encoding: UTF-8
 Imports:
