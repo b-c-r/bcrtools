@@ -9,8 +9,7 @@ read_data(
   sep = ",",
   dec = ".",
   create_factors = T,
-  show_structure = F,
-  show_head = F
+  show_structure = F
 )
 }
 \arguments{
