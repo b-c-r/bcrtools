@@ -5,6 +5,18 @@ This package contains several functions I developed while analysing ecological d
 
 I'll try to keep a Version Log below also up-to-date.
 
+## Download and Install
+To install `bcrtools`, you need to install `devtools` first:
+
+``` r
+install.packages("devtools")
+```
+
+You can subsequently install this development version of bcrtools from R:
+``` r
+devtools::install_github("b-c-r/bcrtools")
+```
+
 ## ToDo's and Issues
 - I want to add the AICc to `select_random()`.
 - Add `glmer()` and `lmer()` option to `select_random()`.
