@@ -10,7 +10,7 @@ I'll try to keep a Version Log below also up-to-date.
 - Add `glmer()` and `lmer()` option to `select_random()`.
 
 ## Version Log
-### 2022-01-29 - 0.1.001
+### 2022-01-29 - 0.1.1
 #### Added function `create_factors()`
 I created a stand-alone function to transform all character-string variables in a data frame into factorials. You can also use the function to update the meta-data in all factorial variables of a data frame after subsetting.
 The functionality of this function has initially been part of the function read_data(), but as a stand-alone function, you can use any "read" function and transform the data afterwards.
