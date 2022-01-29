@@ -9,7 +9,8 @@ read_data(
   sep = ",",
   dec = ".",
   create_factors = T,
-  show_structure = F
+  show_structure = F,
+  show_head = F
 )
 }
 \arguments{
@@ -22,6 +23,8 @@ read_data(
 \item{create_factors}{If `TRUE`, all columns will be returned as factorial, default is `TRUE`.}
 
 \item{show_structure}{Shows the structure of the final data via `str()`.}
+
+\item{show_head}{Shows the head of the final data via `head()`.}
 }
 \value{
 A data frame with factors if the input data was non-numbers (integers or floats).
