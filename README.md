@@ -1,4 +1,4 @@
-# bcrtools: Bjoern's little R-function collection for ecological statistics
+# bcrtools: a little R-function collection for ecological statistics
 
 ## Overview
 This package contains several functions I developed while analysing ecological data. I started in December 2021, and I hope the package grows over time. This R-Package is my first, and it will also be my first open repository on GitHub. If you find issues and bugs, please report them to me. I'll try to fix them as fast as I can. I'd also appreciate it if you had comments on improving the code in general.
